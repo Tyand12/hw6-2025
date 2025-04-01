@@ -53,7 +53,7 @@ document.querySelector("#slider").addEventListener("input", function() {
     var volumeDisplay = document.querySelector("#volume");
     video.volume = this.value / 100;
     volumeDisplay.textContent = this.value + "%";
-    console.log("Volume set to: " + video.volume);
+    console.log("Volume set to: " + volumeDisplay.textContent);
 });
 
 document.querySelector("#vintage").addEventListener("click", function() {
