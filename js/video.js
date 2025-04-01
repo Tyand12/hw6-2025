@@ -13,7 +13,7 @@ window.addEventListener("load", function() {
 document.querySelector("#play").addEventListener("click", function() {
 	console.log("Play Video");
 	document.querySelector("#player1").play();
-	console.log('volume is currently set to '+ video.volume)
+	console.log('Volume is currently set to ' + (video.volume * 100) + '%');
 });
 
 document.querySelector("#pause").addEventListener("click", function() {
